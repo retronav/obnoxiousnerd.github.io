@@ -1,0 +1,97 @@
+@font-face{
+   font-family: 'Cocogoose';
+   src: url('Cocogoose.ttf');
+}
+html{
+   height: 100%;
+   width: 100%;
+}
+ul, li{
+   list-style-position: inside;
+   transition: 500ms ease-in-out;
+}
+
+#list-item:hover{
+   transform: scale(1.5);
+}
+a{
+   text-decoration: none; color: inherit;
+}
+body{
+   height: 100%;
+   width: 100%;
+   background: #003973;
+   background: -webkit-linear-gradient(to right, #E5E5BE, #003973);
+   background: linear-gradient(to right, #E5E5BE, #003973);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 0;
+   font-family: 'Cocogoose';
+   text-align: center;
+}
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+    background: rgba(216, 216, 216, 0.5) !important;
+}
+#fp-nav ul li a span:hover, 
+.fp-slidesNav ul li a span:hover {
+    background: rgb(216, 216, 216) !important;
+}
+#section-main{
+   background: url('pics/pattern.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+#quote-1{
+   color: rgb(0, 0, 0);
+   font-size: 10vh;
+   transition: color 0.5s ease-out;
+   color: unset;
+   background: rgb(2,0,36);
+   background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,168,103,1) 0%, rgba(199,182,23,1) 100%);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,168,103,1) 0%, rgba(199,182,23,1) 100%);
+   background-size: 0 ;
+}
+#quote-1:hover{
+   -webkit-background-clip: text;
+   background-size: 200% 200% ;
+   background-clip: text;
+   color: transparent;
+}
+#main-wrapper{
+   height: 100%;
+   width: 100%;
+}
+#ai-pic, #weathery-pic{
+   transform: scale(0.7);
+   transition: 500ms ease-in-out;
+   margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  left: 0%;
+}
+#ai-pic:hover, #weathery-pic:hover{
+   transform: scale(1);
+}
+#topic-head{
+   display: inline;
+   padding: 3vh;
+   font-size: 10vh;
+   border: 0px solid black;
+   border-radius: 30px;
+   background: linear-gradient(to top, black 50%, transparent 50%);
+   background-size: 200% 200%;
+   background-position: 0 0;
+  transition: all .5s ease-in-out;
+}
+#topic-head:hover{
+   background-position: 0 100%;
+   color: white;
+}
+#topic-desc{
+   transition: 500ms ease-in-out;
+}
+#topic-desc:hover{
+   color: aqua;
+}
