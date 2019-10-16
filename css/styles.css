@@ -38,7 +38,7 @@ body{
     background: rgb(216, 216, 216) !important;
 }
 #section-main{
-   background: url('pics/pattern.png');
+   background: url('//pics/pattern.png');
    background-size: 100% 100%;
    background-repeat: no-repeat;
 }
