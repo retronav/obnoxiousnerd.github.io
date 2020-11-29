@@ -1,62 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175190267-1"></script>
-   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-175190267-1');
-</script>
-
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>ObnoxiousNerd</title>
-</head>
-<body>
-  <main-wrapper>
-     <head-wrap>
-        <div class="section main" id="section-main">
-           <topic-head style="font-size: 12vh;">Obnoxious Nerd</topic-head>
-        <quote-1>A presence of talent awaits you.</quote-1>
-   </div>
-   <div class="section projects">
-      <ul>
-         <quote-1 style="font-size: 12vh;">My Projects</quote-1>
-         <li style="padding: 5vh;"><topic-head><a href="https://obnoxiousnerd.github.io/hate-ai">Hate AI</a></topic-head></li>
-         <li><topic-head><a href="https://obnoxiousnerd.github.io/weathery">Weathery</a></topic-head></li>
-      </ul>
-   </div>
-     <div class="section hate-ai">
-        <topic-head>Hate AI</topic-head>
-        <topic-desc>A personal assistant that hates you but still helps you.</topic-desc>
-        <normal-list>
-            <list-item>Ask her whereabouts like 'How are you?'</list-item>
-            <list-item>Ask the date, time and weekday</list-item>
-            <list-item>Tell her to give some awesome GIFs, like 'thor gif'. Powered by <a href="https://giphy.com/">GIPHY</a></list-item>
-            <list-item>Make her search on Google like 'Google hamburgers'</list-item>
-            <list-item>Search weather of any city like 'London weather'</list-item>
-         </normal-list>
-         <img src="pics/hate-ai.png" id="ai-pic" />
-     </div>
-     <div class="section weathery">
-         <topic-head>Weathery</topic-head>
-         <topic-desc>Check the weather in an instant.</topic-desc>
-         <normal-list>
-            <list-item>Get the weather of your place by clicking the location button</list-item>
-            <list-item>Search weather of any place by hovering over the search bar and typing the place name</list-item>
-         </normal-list>
-         <img src="pics/weathery.png" id="weathery-pic"/>
-      </div>
-   </head-wrap>
-  </main-wrapper>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/fullpage.min.css">
-  <script src="js/custags.js"></script>
-  <script src="js/fullpage.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranav Kararawale - My Projects</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://iconsplace.com/download-file/img/19810/github-icon-18/ffffff/png/48"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <article class="site-wrap">
+      <h1 class="hero-title">Pranav Karawale</h1>
+      <h2 style="text-align: center">My Projects</h2>
+      <br />
+      <ul class="project-list"></ul>
+      <template class="project-list-item">
+        <li class="project">
+          <h3>NAME</h3>
+          <p>Description</p>
+          <a class="goto-url" href="">
+            <img
+              class="goto-url-img"
+              src="https://cdn1.iconfinder.com/data/icons/essential-21/128/External_Link-64.png"
+            />
+          </a>
+        </li>
+      </template>
+    </article>
+    <script src="./index.js"></script>
+  </body>
 </html>
